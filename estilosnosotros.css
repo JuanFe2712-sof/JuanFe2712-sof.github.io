@@ -1,0 +1,482 @@
+*{
+    margin: 0px; 
+    padding: 0px; 
+    Font-family: "Segoe UI", "Light";
+    
+}
+
+body
+{
+   width: 1920px;
+   height: 2584px;
+   background-color: black;
+}
+
+
+
+.contenedor1 a
+{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+}
+
+.contenedor1 a:hover
+{
+    text-decoration: underline white/*#FEC501*/;
+    color: #FEC501;
+}
+
+.galeria
+{
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 340px;
+}
+
+.sobre
+{
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 445px;
+}
+
+.contacto
+{
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 640px;
+}
+
+.hola
+{
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 1369px;
+}
+
+.stock
+{
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 1501px;
+}
+
+.iniciar
+{
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 1605px;
+}
+
+.registro
+{
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 1770px;
+}
+
+
+.contenedor1
+{
+    width: 1920px;
+    height: 797px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.fondo
+{
+    width: 1401px;
+    height: 788.88px;
+    position: absolute;
+    top: 8.12px;
+    left: 253px;
+}
+
+.ini
+{
+    width: 257px;
+    height: 100px;
+    position: absolute;
+    top: 19px;
+    left: 36px;
+    cursor: pointer;
+
+}
+
+.titulo
+{
+    font-family: "Segoe UI", "Black";
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 310px;
+    left: 710px;
+}
+
+.parrafo
+{
+    width: 945px;
+    height: 94px;
+    font-family: "Segoe UI", "Regular";
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 388.5px;
+    left: 498px;
+}
+
+.contexto
+{
+    width: 1779px;
+    height: 439px;
+    position: absolute;
+    top: 619px;
+    left: 46px;
+    color: white;
+}
+
+.titulo1
+{
+    font-family: "Segoe UI", "Black";
+    font-size: 40px;
+}
+
+.a{
+    font-family: "Segoe UI", "Regular";
+    font-size: 20px;
+    position: absolute;
+    top: 92px;
+    left: 163px;
+    width: 472px;
+    height: 168px;
+}
+
+.b
+{
+    font-family: "Segoe UI", "Regular";
+    font-size: 20px;
+    position: absolute;
+    top: 279px;
+    left: 163px;
+    width: 515px;
+    height: 139px;
+}
+
+.c
+{
+    font-family: "Segoe UI", "Regular";
+    font-size: 20px;
+    position: absolute;
+    top: 92px;
+    left: 706px;
+    width: 514px;
+    height: 110px;
+}
+
+.d
+{
+    font-family: "Segoe UI", "Regular";
+    font-size: 20px;
+    position: absolute;
+    top: 230px;
+    left: 706px;
+    width: 506px;
+    height: 136px;
+}
+
+.e
+{
+    font-family: "Segoe UI", "Regular";
+    font-size: 20px;
+    position: absolute;
+    top: 92px;
+    left: 1266px;
+    width: 513px;
+    height: 168px;
+
+
+}
+
+.foto
+{
+    width: 610px;
+    height: 1080px;
+    position: absolute;
+    top: 1086px;
+    left: 1086px;
+}
+
+#img
+{
+    width: 100%;
+}
+
+.contexto2
+{
+    width: 521px;
+    height: 411px;
+    position: absolute;
+    top: 1542px;
+    left: 321px;
+    color: white;
+}
+
+.h2
+{
+    width: 521px;
+    height: 60px;
+    font-family: "Segoe UI", "Black";
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+}
+
+.p1
+{
+    width: 478px;
+    height: 279px;
+    font-family: "Segoe UI", "Regular";
+    font-size: 25px;
+    position: absolute;
+    top: 102px;
+    left: 26.8px;
+}
+
+.final
+{
+    width: 1920px;
+    height: 569px;
+    background-color:#88898b38;
+    position: absolute;
+    top: 2349px;
+    color: white;
+}
+
+.fin
+{
+    width: 227px;
+    height: 99px;
+    position: absolute;
+    top: 66px;
+    left: 149px;
+    cursor: pointer;
+}
+
+.idioma
+{
+    width: 327px;
+    height: 58px;
+    margin-top: 222px;
+    margin-left: 142px;
+    background-color: #88898b38;
+    color: white;
+    font-size: 25px;
+}
+
+.region
+{
+    width: 327px;
+    height: 58px;
+    position: absolute;
+    top:  292px;
+    left: 142px;
+    background-color: #88898b38;
+    border-radius: 3px;
+    border-color: white;
+    color: white;
+    font-size: 25px;
+}
+
+.colombia
+{
+    width: 51px;
+    height: 31px;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+
+.co{
+    position: absolute;
+    top: 10px;
+    left: 77px;
+}
+
+.info54
+{
+    position: absolute;
+    top: 85px;
+    left: 636px;
+    color: white;
+    font-size: 25px;
+}
+
+.cont
+{
+    position: absolute;
+    top: 150px;
+    left: 670px;
+    font-size: 17px;
+    
+}
+.parra{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.parra a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.parra a:hover
+{
+    color: #43BD80;
+}
+
+.empresa
+{
+    position: absolute;
+    top: 85px;
+    left: 1030px;
+    color: white;
+    font-size: 25px;
+}
+.cont1
+{
+    position: absolute;
+    top: 150px;
+    left: 1030px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.parra1{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.parra1 a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.parra1 a:hover
+{
+    color: #43BD80;
+}
+
+.asistencia
+{
+    position: absolute;
+    top: 85px;
+    left: 1300px;
+    color: white;
+    font-size: 25px;
+}
+.cont2
+{
+    position: absolute;
+    top: 150px;
+    left: 1300px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.parra2{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.parra2 a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.parra2 a:hover
+{
+    color: #43BD80;
+}
+
+:root
+{
+    --facebook: #3b5999;
+    --instagram:#e4405f;
+    --twitter:#55acee;
+}
+
+.redes
+{
+    position: absolute;
+    top: 200px;
+    left: 1650px;
+}
+
+.redes ul 
+{
+    
+    margin-top: 0px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.redes ul a
+{
+    margin-top: 3px;
+    display: block;
+    padding: 0 5px;
+    background: gray;
+    color: white;
+    line-height: 50px; 
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+    transition: .2s; 
+}
+
+.redes ul:hover a
+{
+    filter: blur(2px);
+}
+
+.redes ul a:hover 
+{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0,0,0,.4);
+    filter: none;
+}
+
+.redes ul .facebook:hover
+{
+    background: var(--facebook);
+}
+
+.redes ul  .twitter:hover{
+    background: var(--twitter);
+}
+
+.redes ul  .instagram:hover{
+    background: var(--instagram);
+}
+
+
+
+
+
+
+
+

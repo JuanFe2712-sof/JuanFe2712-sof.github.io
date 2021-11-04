@@ -1,0 +1,205 @@
+*{  margin: 0px; 
+    padding: 0px; 
+    font-family: "Arial", "Regular";
+    
+}
+
+body
+{
+    width: 1920px;
+    height: 1080px;
+    background-image: url(IMG/opcion\ 3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header
+{
+    width: 405px;
+    height: 79.5px;
+    position: relative;
+    top: 78.5px;
+    left: 757.63px;
+    background-color: black;
+}
+
+.img
+{
+    width: 164px;
+    height: 63px;
+    position: absolute;
+    top: 8.5px;
+    left: 120.5px;
+}
+
+.loginbox
+{
+    width: 405px;
+    height: 687.06px;
+    position: absolute;
+    top: 158px;
+    left: 757.63px;
+    background-color: white;
+}
+
+h1
+{
+    width: 156px;
+    height: 33px;
+    position: absolute;
+    top: 37px;
+    left: 21.5px;
+    font-size: 30px;
+}
+
+.sesion
+{
+    width: 232px;
+    height: 17px;
+    position: absolute;
+    top: 80px;
+    left: 17.5px;
+    font-size: 15px;
+}
+
+.sesion a
+{
+    text-decoration: none;
+    color: #4395BD;
+}
+
+.sesion a:hover
+{
+    color: #43BD80;
+}
+
+input[type="text"]
+{
+    width: 347px;
+    height: 55.19px;
+    margin-top: 130px;
+    margin-left: 29.4px;
+    font-size: 20px;
+}
+
+input[type="password"]
+{
+    width: 347px;
+    height: 55.19px;
+    margin-top: 10.8px;
+    margin-left: 29.4px;
+    font-size: 20px;
+}
+
+.paises
+{
+    width: 347px;
+    height: 55.19px;
+    margin-top: 10.8px;
+    margin-left: 29.4px;
+    font-size: 20px;
+    color: #707070;
+}
+
+input[type="checkbox"]
+{
+    width: 23px;
+    height: 23px;
+    margin-top: 27.2px;
+    margin-left: 25.4px;
+    
+}
+
+.loginbox label
+{
+    width: 300px;
+    height: 46px;
+    font-size: 15px;
+    text-align: left;
+    color: #707070;
+    position: absolute;
+    top: 417px;
+    left: 69.4px;
+}
+
+.btn
+{
+    width: 347px;
+    height: 55.19px;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #1C2426;
+    position: absolute;
+    top: 493px;
+    left: 29.4px;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background:#4395BD ;
+}
+
+.fin
+{
+    width: 318px;
+    height: 52px;
+    font-size: 14px;
+    color: #707070;
+    position: absolute;
+    top: 589px;
+    left: 43.4px;
+}
+
+.fin a
+{
+    text-decoration: none;
+    color: #4395BD;
+}
+
+.fin a:hover
+{
+    color: #43BD80;
+}
+
+.pie
+{
+    width: 1920px;
+    height: 90px;
+    position: absolute;
+    top: 946px;
+    left: 0px;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    border: 1px solid #707070;
+}
+.p
+{
+    width: 1101px;
+    height: 33px;
+    font-size: 30px;
+    position: absolute;
+    top: 29px;
+    left: 361px;
+
+}
+
+.pie a
+{
+    text-decoration: none;
+    color: #4395BD;
+}
+
+.pie a:hover
+{
+    color: #43BD80;
+}
+
+
+
+
+

@@ -1,0 +1,184 @@
+*{  margin: 0px; 
+    padding: 0px; 
+    font-family: "Arial", "Regular";
+    
+}
+
+body
+{
+    background-image: url(IMG/opcion\ 2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.header
+{
+    width: 405px;
+    height: 79.5px;
+    position: relative;
+    top: 230.5px;
+    left: 757.5px;
+    background-color: black;
+}
+
+.img
+{
+    width: 164px;
+    height: 63px;
+    position: absolute;
+    top: 8.5px;
+    left: 120.5px;
+    cursor: pointer;
+}
+
+.loginbox
+{
+    width: 405px;
+    height: 440.38px;
+    position: absolute;
+    top: 310px;
+    left: 757.25px;
+    background-color: white;
+}
+
+h1
+{
+    width: 207px;
+    height: 33px;
+    position: absolute;
+    top: 30px;
+    left: 21.8px;
+    font-size: 30px;
+}
+
+.sesion
+{
+    width: 340px;
+    height: 17px;
+    position: absolute;
+    top: 73px;
+    left: 17.8px;
+    font-size: 15px;
+}
+
+.sesion a
+{
+    text-decoration: none;
+    color: #498566;
+}
+
+.sesion a:hover
+{
+    color: #4395BD;
+}
+
+input[type="text"]
+{
+    width: 347px;
+    height: 55.19px;
+    margin-top: 120px;
+    margin-left: 21.8px;
+    font-size: 20px;
+}
+
+input[type="password"]
+{
+    width: 347px;
+    height: 55.19px;
+    margin-top: 22.4px;
+    margin-left: 21.8px;
+    font-size: 20px;
+}
+
+.btn
+{
+    width: 347px;
+    height: 55.19px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #1C2426;
+    position: absolute;
+    top: 285.6px;
+    left: 22.3px;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background:#4395BD ;
+}
+
+.olvidado
+{
+    width: 205px;
+    height: 17px;
+    font-size: 15px;
+    position: relative;
+    top: 112.2px;
+    left: 103.8px;
+    
+}
+
+.olvidado a
+{
+    text-decoration: none;
+    color: #498566;
+}
+
+.olvidado a:hover
+{
+    color: #4395BD;
+}
+
+.pie
+{
+    width: 1920px;
+    height: 90px;
+    position: absolute;
+    top: 946px;
+    left: 0px;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    border: 1px solid #707070;
+}
+
+.p
+{
+    width: 1101px;
+    height: 33px;
+    font-size: 30px;
+    position: absolute;
+    top: 29px;
+    left: 361px;
+
+}
+
+.pie a
+{
+    text-decoration: none;
+    color: #498566;
+}
+
+.pie a:hover
+{
+    color: #4395BD;
+}
+
+@media screen and (max-width: 800px)
+{
+    .header{
+        
+    }
+
+    .loginbox{
+             
+    }
+
+    
+}

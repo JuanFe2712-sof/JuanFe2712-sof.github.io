@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", "Light";
+ }
+ body{
+     background-color: black;
+ }
+
+ .encabezado{
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+ }
+
+ .galeria{
+     display: flex;
+     flex-wrap: wrap;
+     padding: 10px 20px;
+ }
+
+ .columna{
+     flex: 20%;
+     max-width: 40%;
+     padding: 0 4px;
+ }
+ .columna img{
+     margin-top: 8px;
+     vertical-align: middle;
+     width: 100%;
+     filter: grayscale(100%);
+     transition: all 0.3s ease;
+ }
+ .columna img:hover{
+    cursor: pointer;
+    filter: grayscale(0%);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transform: scale(1.1);
+}
+.overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color:black;
+    z-index: 10000;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    transition: all 0.7s ease;
+    visibility: hidden;
+}
+.overlay .slide-show{
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.slide-show img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.boton-cerrar{
+    position: absolute;
+    top: -15px;
+    right: -20px;
+    font-size: 35px;
+    background-color:black;
+    color:white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    transition: all 0.2s ease;
+}
+.boton-cerrar:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.botones{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color:rgba(255,255,255,0.7);
+}
+.botones:hover>i{
+    transform: scale(1);
+    transition: all 0.2s ease;
+}
+.atras{
+    left: 20px;
+}
+.adelante{
+    right:20px;
+}
+.mdi{
+    pointer-events: none;
+}
+
+@media screen and(max-width:800px) {
+    .columna{
+        flex: 50%;
+        max-width: 50%;
+    }
+    .botones{
+        font-size: 40px;
+    }
+    .atras{
+        left: 5px;
+    }
+    .adelante{
+        right: 5px;
+    }
+    .slide-show img{
+        width: 98%;
+    }
+}
+@media screen and (max-width:600px) {
+    .columna{
+        flex: 100%;
+        max-width: 100%;
+    }
+}

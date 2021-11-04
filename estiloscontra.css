@@ -1,0 +1,161 @@
+*{  margin: 0px; 
+    padding: 0px; 
+    font-family: "Arial", "Regular";
+    
+}
+
+body
+{
+    width: 1920px;
+    height: 1080px;
+    background-image: url(IMG/opcion\ 4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header
+{
+    width: 405px;
+    height: 79.5px;
+    position: relative;
+    top: 230.5px;
+    left: 757.5px;
+    background-color: black;
+}
+
+.img
+{
+    width: 164px;
+    height: 63px;
+    position: absolute;
+    top: 8.5px;
+    left: 120.5px;
+    cursor: pointer;
+}
+
+.loginbox
+{
+    width: 405px;
+    height: 440.38px;
+    position: absolute;
+    top: 310px;
+    left: 757.25px;
+    background-color: white;
+}
+
+h1
+{
+    width: 400px;
+    height: 31px;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    font-size: 27px;
+}
+
+.sesion
+{
+    width: 272px;
+    height: 17px;
+    position: absolute;
+    top: 80px;
+    left: 17.8px;
+    font-size: 15px;
+}
+
+input[type="text"]
+{
+    width: 347px;
+    height: 55.19px;
+    margin-top: 130px;
+    margin-left: 29.8px;
+    font-size: 20px;
+}
+
+.btn
+{
+    width: 352px;
+    height: 93.19px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #6D7171;
+    position: absolute;
+    top: 194px;
+    left: 29.8px;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background:black;
+}
+
+.olvidado
+{
+    width: 200px;
+    height: 17px;
+    font-size: 15px;
+    position: relative;
+    top: 128.8px;
+    left: 115.8px;
+    
+}
+
+.olvidado a
+{
+    text-decoration: none;
+    color: #5AC2E5;
+}
+
+.olvidado a:hover
+{
+    color: #498566;
+}
+
+.captcha
+{
+    width: 260px;
+    height: 62px;
+    position: absolute;
+    top: 357px;
+    left: 10.8px;
+    cursor: pointer;
+}
+
+.pie
+{
+    width: 1920px;
+    height: 90px;
+    position: absolute;
+    top: 946px;
+    left: 0px;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    border: 1px solid #707070;
+}
+
+.p
+{
+    width: 1101px;
+    height: 33px;
+    font-size: 30px;
+    position: absolute;
+    top: 29px;
+    left: 361px;
+
+}
+
+.pie a
+{
+    text-decoration: none;
+    color: #498566;
+}
+
+.pie a:hover
+{
+    color: #4395BD;
+}

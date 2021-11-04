@@ -1,0 +1,77 @@
+.inicio
+{
+    background-color: black;
+    width: 1920px; 
+    height: 143px;
+    font-size: 16px;
+    font-family: "Segoe UI", "Light";
+}
+
+header .inicio a
+{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+}
+
+header .inicio a:hover
+{
+    text-decoration: underline white/*#FEC501*/;
+    color: #FEC501;
+}
+
+.galeria
+{
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 340px;
+}
+
+.sobre
+{
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 445px;
+}
+
+.contacto
+{
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 640px;
+}
+
+.hola
+{
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 1360px;
+}
+
+.stock
+{
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 1501px;
+}
+
+.iniciar
+{
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 1605px;
+}
+
+.registro
+{
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 1750px;
+}
